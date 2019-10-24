@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<style type="text/css">
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  #div {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top right, #4b00e1 26%, #ff99cc 100%);
+  }
+</style>
+
+<script type="text/javascript">
+
+  function loggInn() {
+    window.location.href = valg;
+  }
+
+  function goTo(URL) {
+    valg = URL;
+  } 
+
+</script>
+</head>
+
+<body>
+  <div id="div">
+    
+    <div class="container">
+      <div class="leftSide">
+        <div class="logginnFelt">
+        <form name="brukerValg">
+          <input type="radio" name="valg" onchange="if(this.checked){goTo('shome.html')}"/>Student
+          <input type="radio" name="valg" onchange="if(this.checked){goTo('http://www.youtube.com')}"/>Teacher<br/>
+
+          <div class="l1">
+            Username: &nbsp;
+            Password: &nbsp;&nbsp;
+            
+          </div>
+          <div class="l2">
+            <input type="text" name="username"><br>
+            <input type="password" name="password">
+            <input type="Button" value="Logg inn" onclick="loggInn()" />
+          </div>
+ 
+        </form>
+        </div>
+      </div>
+
+      <div class="rightSide">
+        <img src="laptop.png" style="top: 0; bottom: 0;margin: auto;position: absolute; max-width: 50%;max-height: 100%;">
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
