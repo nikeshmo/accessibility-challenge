@@ -141,6 +141,12 @@ html {
     margin-left: 2px;
 }
 
+.linkU {
+    color: darkblue;
+    text-decoration: underline;
+    text-decoration-color: darkblue;
+}
+
 .main1 button {
     margin-top: 15px;
 }
@@ -163,9 +169,6 @@ html {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.24);
-
-
-
 }
 
 .cBilde {
@@ -216,7 +219,7 @@ background: linear-gradient(149deg, rgba(230,108,119,1) 0%, rgba(172,85,120,1) 1
 }
 
 .button {
-    background-color: dimgrey;
+    background-color: dimgray;
     border: none;
     color: white;
     padding: 10px 14px;
