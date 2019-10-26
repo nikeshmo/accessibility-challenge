@@ -129,6 +129,13 @@ html {
     margin-bottom: 20px;
     margin-top: 10px;
 }
+.main2 h1 {
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
 
 .main1 h3 {
     margin-top: 30px;
@@ -148,7 +155,10 @@ html {
 }
 
 .main1 button {
-    margin-top: 15px;
+    margin-top: 10px;
+    float: right; 
+    margin-right: 18px;
+
 }
 
 .main2 {
