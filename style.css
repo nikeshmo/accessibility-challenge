@@ -217,6 +217,7 @@ background: linear-gradient(149deg, rgba(230,108,119,1) 0%, rgba(172,85,120,1) 1
 
 .aside #portrett {
     border-radius: 50%;
+    padding: 1vw;
 } 
 
 .aside h2 {
@@ -237,6 +238,27 @@ background: linear-gradient(149deg, rgba(230,108,119,1) 0%, rgba(172,85,120,1) 1
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+.button1 {
+    margin-top: 25px;
+}
+
+#buttonTilEmner {
+    display: inline-block;
+    border: none;
+    background-color: dimgray;
+    color: white;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    
+    margin-top: 5px;
+    float: none; 
+    margin-right: 0px;
+
+    
 }
 
 .footer {
