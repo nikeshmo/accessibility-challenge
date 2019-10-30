@@ -13,6 +13,9 @@ a {
   display: table;
 }
 
+body {
+  overflow-y:scroll;
+}
 
 html {
   font-family: "Lucida Sans", sans-serif;
@@ -218,7 +221,7 @@ background: linear-gradient(149deg, rgba(230,108,119,1) 0%, rgba(172,85,120,1) 1
 
 .aside #portrett {
     border-radius: 50%;
-    padding: 1vw;
+    padding: 2vw;
 } 
 
 .aside h2 {
