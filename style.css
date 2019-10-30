@@ -117,11 +117,11 @@ html {
 
 .main1 {
   background-color: rgba(255,255,255,1);
-  margin:0;
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.24);
   margin-left: 10%;
+  padding-top: 30px;
 }
 
 .main1 h1 {
@@ -168,6 +168,7 @@ html {
   border-radius: 10px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.24);
   margin-left: 10%;
+  padding-top: 30px;
 
 }
 
@@ -318,7 +319,7 @@ background: linear-gradient(149deg, rgba(230,108,119,1) 0%, rgba(172,85,120,1) 1
 }
 
 @media only screen and (max-width: 1250px) {
-  .rightSide {display: none;}
+  .indexImg {display: none;}
 }
 @media only screen and (max-width: 599px) {
     .menu ul {display:none;}
@@ -351,14 +352,24 @@ background: linear-gradient(149deg, rgba(230,108,119,1) 0%, rgba(172,85,120,1) 1
     margin: auto;
     float: left;
     min-width: 270px;
-
-
 }
+
 .rightSide {
-  width: 50%;
+  margin-left: 51%;
   height: 100%;
-  float:right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
+
+.indexImg {
+  width: 130%; 
+  opacity: 0.7; 
+  margin-left: 30%; 
+  max-height: 100vh;
+}
+
 
 .logginnFelt {
   font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
