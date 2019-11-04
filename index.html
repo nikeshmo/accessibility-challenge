@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="shortcut icon" type="image/x-icon" href="logoIcon.png" />
 <title>Log into Idella</title> 
@@ -42,8 +42,8 @@
       <div class="leftSide">
         <div class="logginnFelt">
         <form name="brukerValg">
-          <input type="radio" name="valg" onchange="if(this.checked){goTo('shome.html')}"/>Student
-          <input type="radio" name="valg" onchange="if(this.checked){goTo('teacher.html')}"/>Teacher<br/>
+          <a href="#"><input type="radio" title="radioStudent" name="valg" onchange="if(this.checked){goTo('shome.html')}"/>Student</a>
+          <a href="#"><input type="radio" title="radioTeacher" name="valg" onchange="if(this.checked){goTo('teacher.html')}"/>Teacher<br/></a>
 
           <div class="l1">
             Username: &nbsp;
@@ -51,22 +51,19 @@
             
           </div>
           <div class="l2">
-            <input type="text" name="username"><br>
-            <input type="password" name="password">
-            <input type="Button" value="Logg inn" onclick="loggInn()" />
+            <input type="text" name="username" title="inputText"><br>
+            <input type="password" name="password" title="inputPass">
+            <input type="Button" value="Logg inn" title="inputButton" onclick="loggInn()" />
           </div>
  
         </form>
         </div>
       </div>
-      <!--<div class="rightSide">
-        <img src="monitors.png" style="top: 0; bottom: 0; position: absolute; max-width: 70%;max-height: 100%; margin-top: 30px; opacity: 0.5;">
-      </div>-->
     </div>
 
 
     <div class="rightSide">
-      <img class="indexImg" src="preview.png"> 
+      <img class="indexImg" src="preview.png" alt="Preview photo">
     </div>
   </div>
 </body>
